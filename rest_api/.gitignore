@@ -1,0 +1,6 @@
+ncov_2019_api.http
+ /*
+  no port,path,query parameters in our case
+  static final port = 443
+  Uri tokenUri() => Uri(scheme: 'https', host: host, port:port, path:'token',queryParameters:('grant_type':'client_credentials'));
+*/
